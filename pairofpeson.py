@@ -20,7 +20,7 @@ def getMinSwaps(row):
 
 
 def main():
-    row = [0, 1, 2, 3, 4, 5, 6, 7, 9, 8]
+    row = [0, 2, 1, 3]
     minSwaps = getMinSwaps(row)
     print("Minimum number of swaps with row: "+str(minSwaps))
 
