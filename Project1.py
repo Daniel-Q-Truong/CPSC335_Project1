@@ -50,6 +50,7 @@ def find_preferred_starting_city(distances, fuel, mpg):
     return start_city if total_fuel_surplus >= 0 else -1
 
 def main():
+    print("Algorithm 1: Greedy Approach to Hamiltonian Problem\n")
     #Algorithm 1: Greedy Approach to Hamiltonian Problem
     distances = [5, 25, 15, 10, 15]
     fuel = [1, 2, 1, 0, 3]
@@ -58,7 +59,7 @@ def main():
     result = find_preferred_starting_city(distances, fuel, mpg)
     print(f"preferred starting city index: {result}")
 
-
+    print("\nAlgorithm 2: Connecting Pairs of Persons\n")
     #Algorithm 2: Connecting Pairs of Persons
     row = [0, 2, 1, 3]
     minimumSwaps = getMinimumSwaps(row)
