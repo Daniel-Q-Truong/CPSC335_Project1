@@ -1,6 +1,5 @@
 # This function will return the minimum amount of swaps performed to arrange 'couples' in seats next to each other.
 def getMinimumSwaps(row):
-    #Variables:
     minimumSwaps = 0        # (Int) Minimum number of swaps returned by the function. Incremented in-loop.
 
     #The for loop will iterate through the table "row" from index 0 to the index representing the length of the array
